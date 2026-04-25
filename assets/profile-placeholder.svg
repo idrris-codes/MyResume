@@ -1,0 +1,9 @@
+<svg width="900" height="1125" viewBox="0 0 900 1125" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="1125" rx="64" fill="#0B1020"/>
+<circle cx="450" cy="330" r="210" fill="url(#g1)" opacity="0.35"/>
+<circle cx="450" cy="305" r="95" fill="#E9F4FF"/>
+<path d="M258 801C285 641 366 555 450 555C534 555 615 641 642 801H258Z" fill="#E9F4FF"/>
+<rect x="180" y="875" width="540" height="80" rx="40" fill="#121A2D"/>
+<text x="450" y="928" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#B9C7DD">replace with your photo</text>
+<defs><linearGradient id="g1" x1="240" y1="120" x2="660" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#45D3FF"/><stop offset="1" stop-color="#8B6CFF"/></linearGradient></defs>
+</svg>
