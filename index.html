@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Idris Codes — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="language-screen" id="languageScreen">
+    <div class="language-card">
+      <p class="small-label">Choose language</p>
+      <h1>Welcome to Idris Codes</h1>
+      <p class="language-text">Select a language to view the portfolio.</p>
+      <div class="language-buttons">
+        <button data-lang="en">English</button>
+        <button data-lang="ru">Русский</button>
+        <button data-lang="tj">Тоҷикӣ</button>
+      </div>
+    </div>
+  </div>
+
+  <button class="language-switch" id="languageSwitch">🌐</button>
+
+  <div class="cinema-bg"><span></span><span></span><span></span></div>
+  <div class="grain"></div>
+
+  <header class="hero" id="top">
+    <nav class="nav reveal">
+      <a href="#top" class="brand">Idris<span>Codes</span></a>
+      <div class="nav-links">
+        <a href="#resume" data-i18n="navResume">Резюме</a>
+        <a href="#bots" data-i18n="navBots">Боты</a>
+        <a href="#sites" data-i18n="navSites">Сайты</a>
+        <a href="#contacts" data-i18n="navContacts">Контакты</a>
+      </div>
+    </nav>
+
+    <section class="hero-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="heroTag">Telegram Bots • AI Automation • Websites</p>
+        <h1 data-i18n="heroTitle">Боты и сайты, которые помогают бизнесу выглядеть профессионально и работать быстрее</h1>
+        <p class="lead" data-i18n="heroText">Я создаю Telegram-ботов, AI-помощников, лендинги и сайты-визитки для реальных задач: заявки, автоматизация, продажи, запись клиентов и удобная коммуникация.</p>
+
+        <div class="hero-actions">
+          <a href="#bots" class="btn btn-primary" data-i18n="heroBtnProjects">Смотреть проекты</a>
+          <a href="#contacts" class="btn btn-ghost" data-i18n="heroBtnContact">Связаться</a>
+        </div>
+
+        <div class="mini-stats">
+          <div><b>5+</b><span data-i18n="statExperience">лет практики</span></div>
+          <div><b>3</b><span data-i18n="statFocus">направления</span></div>
+          <div><b>∞</b><span data-i18n="statIdeas">идеи под задачи</span></div>
+        </div>
+      </div>
+
+      <div class="portrait-wrap reveal">
+        <div class="portrait-frame">
+          <img src="assets/profile-placeholder.svg" alt="Idris Sharipov" class="portrait">
+        </div>
+        <div class="status-card"><span></span><b data-i18n="available">Доступен для новых проектов</b></div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="resume cinematic-card reveal" id="resume">
+      <div class="section-head">
+        <p data-i18n="resumeLabel">Resume</p>
+        <h2 data-i18n="resumeTitle">Обо мне как о разработчике</h2>
+      </div>
+
+      <div class="resume-grid">
+        <div>
+          <h3>Idris Sharipov</h3>
+          <p data-i18n="resumeText1">Я помогаю бизнесам и экспертам запускать понятные цифровые инструменты: Telegram-ботов, AI-ботов и сайты. У меня около 5 лет практики, включая клиентские проекты через Kwork, Upwork и ProfiRU.</p>
+          <p data-i18n="resumeText2">Мой подход — сначала понять задачу, потом собрать удобную структуру, продумать сценарий пользователя и довести проект до рабочего результата.</p>
+        </div>
+
+        <div class="facts">
+          <div><span data-i18n="factSpec">Специализация</span><b data-i18n="factSpecValue">Telegram-боты, AI, сайты</b></div>
+          <div><span data-i18n="factStack">Стек</span><b>Python, HTML, CSS, JavaScript</b></div>
+          <div><span data-i18n="factExp">Опыт</span><b data-i18n="factExpValue">около 5 лет</b></div>
+          <div><span data-i18n="factLocation">Локация</span><b data-i18n="factLocationValue">Душанбе, Таджикистан</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section" id="bots">
+      <div class="section-head reveal">
+        <p data-i18n="botsLabel">Telegram Bots</p>
+        <h2 data-i18n="botsTitle">Шаблоны для ботов</h2>
+        <span data-i18n="botsDesc">Отдельный раздел для Telegram-ботов. После завершения проекта сюда можно добавить описание, функции и ссылку на тест.</span>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal"><div class="project-top"><span class="project-type">BOT</span><span class="empty-label">template</span></div><h3 data-i18n="botName">Название бота</h3><p data-i18n="botText1">Кратко опиши, какую задачу решает бот: принимает заявки, отвечает клиентам, продаёт товары или автоматизирует процесс.</p><div class="chips"><span data-i18n="feature1">Функция 1</span><span data-i18n="feature2">Функция 2</span><span data-i18n="feature3">Функция 3</span></div><button class="open-project" data-modal="bot1" data-i18n="details">Подробнее</button></article>
+        <article class="project-card reveal"><div class="project-top"><span class="project-type">BOT</span><span class="empty-label">template</span></div><h3 data-i18n="botName">Название бота</h3><p data-i18n="botText2">Добавь понятное описание: для кого создан бот, какие действия выполняет и почему он удобен для клиента.</p><div class="chips"><span data-i18n="feature1">Функция 1</span><span data-i18n="feature2">Функция 2</span><span data-i18n="feature3">Функция 3</span></div><button class="open-project" data-modal="bot2" data-i18n="details">Подробнее</button></article>
+        <article class="project-card reveal"><div class="project-top"><span class="project-type">BOT</span><span class="empty-label">template</span></div><h3 data-i18n="botName">Название бота</h3><p data-i18n="botText3">После разработки замени этот текст на живое описание проекта, его ключевые функции и пользу для бизнеса.</p><div class="chips"><span data-i18n="feature1">Функция 1</span><span data-i18n="feature2">Функция 2</span><span data-i18n="feature3">Функция 3</span></div><button class="open-project" data-modal="bot3" data-i18n="details">Подробнее</button></article>
+      </div>
+    </section>
+
+    <section class="projects-section" id="sites">
+      <div class="section-head reveal">
+        <p data-i18n="sitesLabel">Websites</p>
+        <h2 data-i18n="sitesTitle">Шаблоны для сайтов</h2>
+        <span data-i18n="sitesDesc">Отдельный раздел для сайтов: лендинги, визитки, портфолио и простые бизнес-страницы.</span>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal"><div class="project-top"><span class="project-type site">SITE</span><span class="empty-label">template</span></div><h3 data-i18n="siteName">Название сайта</h3><p data-i18n="siteText1">Опиши сайт простыми словами: для кого он сделан, какие блоки есть и какую цель закрывает.</p><div class="chips"><span>HTML/CSS</span><span>Responsive</span><span>Landing</span></div><button class="open-project" data-modal="site1" data-i18n="details">Подробнее</button></article>
+        <article class="project-card reveal"><div class="project-top"><span class="project-type site">SITE</span><span class="empty-label">template</span></div><h3 data-i18n="siteName">Название сайта</h3><p data-i18n="siteText2">После публикации добавь сюда реальное описание сайта, его особенности и ссылку для просмотра.</p><div class="chips"><span>Design</span><span>Layout</span><span>UX</span></div><button class="open-project" data-modal="site2" data-i18n="details">Подробнее</button></article>
+        <article class="project-card reveal"><div class="project-top"><span class="project-type site">SITE</span><span class="empty-label">template</span></div><h3 data-i18n="siteName">Название сайта</h3><p data-i18n="siteText3">Используй эту карточку для будущего сайта: добавь название, описание, функции и ссылку.</p><div class="chips"><span>Mobile</span><span>Clean</span><span>Fast</span></div><button class="open-project" data-modal="site3" data-i18n="details">Подробнее</button></article>
+      </div>
+    </section>
+
+    <section class="contacts cinematic-card reveal" id="contacts">
+      <div class="section-head"><p data-i18n="contactsLabel">Contacts</p><h2 data-i18n="contactsTitle">Связаться со мной</h2></div>
+      <p class="contact-text" data-i18n="contactsText">Есть идея для Telegram-бота, сайта или автоматизации? Напиши мне — разберём задачу и подберём понятное решение.</p>
+      <div class="hero-actions center"><a href="#" class="btn btn-ghost">Instagram</a><a href="#" class="btn btn-primary">Telegram</a></div>
+    </section>
+  </main>
+
+  <div class="modal" id="bot1"><div class="modal-box"><button class="close">×</button><p class="eyebrow">BOT PROJECT</p><h2 data-i18n="botName">Название бота</h2><p data-i18n="modalBotText">Полное описание бота: какую проблему он решает, как пользователь с ним работает и какие функции внутри.</p><ul><li data-i18n="modalFeature1">Главная функция проекта</li><li data-i18n="modalFeature2">Вторая функция проекта</li><li data-i18n="modalFeature3">Третья функция проекта</li></ul><a href="#" class="btn btn-primary" data-i18n="openProject">Открыть проект</a></div></div>
+  <div class="modal" id="bot2"><div class="modal-box"><button class="close">×</button><p class="eyebrow">BOT PROJECT</p><h2 data-i18n="botName">Название бота</h2><p data-i18n="modalBotText">Полное описание бота: какую проблему он решает, как пользователь с ним работает и какие функции внутри.</p><ul><li data-i18n="modalFeature1">Главная функция проекта</li><li data-i18n="modalFeature2">Вторая функция проекта</li><li data-i18n="modalFeature3">Третья функция проекта</li></ul><a href="#" class="btn btn-primary" data-i18n="openProject">Открыть проект</a></div></div>
+  <div class="modal" id="bot3"><div class="modal-box"><button class="close">×</button><p class="eyebrow">BOT PROJECT</p><h2 data-i18n="botName">Название бота</h2><p data-i18n="modalBotText">Полное описание бота: какую проблему он решает, как пользователь с ним работает и какие функции внутри.</p><ul><li data-i18n="modalFeature1">Главная функция проекта</li><li data-i18n="modalFeature2">Вторая функция проекта</li><li data-i18n="modalFeature3">Третья функция проекта</li></ul><a href="#" class="btn btn-primary" data-i18n="openProject">Открыть проект</a></div></div>
+  <div class="modal" id="site1"><div class="modal-box"><button class="close">×</button><p class="eyebrow">SITE PROJECT</p><h2 data-i18n="siteName">Название сайта</h2><p data-i18n="modalSiteText">Полное описание сайта: цель, аудитория, структура, главные блоки и ссылка для просмотра.</p><ul><li data-i18n="modalFeature1">Главная функция проекта</li><li data-i18n="modalFeature2">Вторая функция проекта</li><li data-i18n="modalFeature3">Третья функция проекта</li></ul><a href="#" class="btn btn-primary" data-i18n="openProject">Открыть проект</a></div></div>
+  <div class="modal" id="site2"><div class="modal-box"><button class="close">×</button><p class="eyebrow">SITE PROJECT</p><h2 data-i18n="siteName">Название сайта</h2><p data-i18n="modalSiteText">Полное описание сайта: цель, аудитория, структура, главные блоки и ссылка для просмотра.</p><ul><li data-i18n="modalFeature1">Главная функция проекта</li><li data-i18n="modalFeature2">Вторая функция проекта</li><li data-i18n="modalFeature3">Третья функция проекта</li></ul><a href="#" class="btn btn-primary" data-i18n="openProject">Открыть проект</a></div></div>
+  <div class="modal" id="site3"><div class="modal-box"><button class="close">×</button><p class="eyebrow">SITE PROJECT</p><h2 data-i18n="siteName">Название сайта</h2><p data-i18n="modalSiteText">Полное описание сайта: цель, аудитория, структура, главные блоки и ссылка для просмотра.</p><ul><li data-i18n="modalFeature1">Главная функция проекта</li><li data-i18n="modalFeature2">Вторая функция проекта</li><li data-i18n="modalFeature3">Третья функция проекта</li></ul><a href="#" class="btn btn-primary" data-i18n="openProject">Открыть проект</a></div></div>
+
+  <footer><p>© 2026 Idris Codes. Portfolio.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
